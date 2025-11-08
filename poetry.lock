@@ -167,6 +167,21 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "pylit"
+version = "0.8.0"
+description = "pylit: bidirectional text <-> code converter"
+optional = false
+python-versions = ">=2.7"
+files = [
+    {file = "pylit-0.8.0-py2.py3-none-any.whl", hash = "sha256:6d6ae3d0c44cd1c28de628ad4e5bfe6ca3c33d8ca72942715a582218e3b46049"},
+    {file = "pylit-0.8.0.tar.gz", hash = "sha256:157c3aac72c78297824d8983d2948331d3c3dfed83490296b48694edeca80f09"},
+]
+
+[package.extras]
+doc = ["sphinx"]
+test = ["nose"]
+
+[[package]]
 name = "pytest"
 version = "7.4.3"
 description = "pytest: simple powerful testing with Python"
@@ -202,4 +217,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c9140e6d982aee3936305e38774c9196ee9def003025befe704b67a448d2957a"
+content-hash = "334e0985718cd72774e0ad42e4753423f3e909903baf404a539911990a48c6ab"
