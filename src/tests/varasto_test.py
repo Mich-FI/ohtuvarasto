@@ -1,5 +1,5 @@
 import unittest
-from ../varasto import Varasto
+from ../ohtuvarasto/varasto import Varasto
 
 
 class TestVarasto(unittest.TestCase):
