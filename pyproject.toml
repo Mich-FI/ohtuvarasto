@@ -8,6 +8,7 @@ packages = [{ include = "ohtuvarasto", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+cowsay = "^6.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -15,6 +16,7 @@ pytest = "^7.4.2"
 coverage = "^7.11.0"
 pylit = "^0.8.0"
 pylint = "^4.0.2"
+robotframework = "^7.3.2"
 
 [build-system]
 requires = ["poetry-core"]
